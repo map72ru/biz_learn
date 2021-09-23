@@ -1,0 +1,12 @@
+database:
+  connection_string: "postgresql://postgres:123@localhost/sludgedb"
+data:
+  path: 'd:\progs\py\biz_learn\app\'
+  logsPath: 'd:progs\py\biz_learn\logs\'
+model:
+  config:
+    n_estimators: 200
+    min_samples_split: 15
+observer:
+  input_sleep_time: 30
+  output_sleep_time: 30
